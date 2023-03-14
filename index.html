@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="control-section">
+      <h1>Generate a Color Palette</h1>
+      <div class="controls">
+      <input id="nColors" type="number" min="1" max="6"></input>
+      <button id="generate">Randomize</button>
+      </div>
+    </section>
+    <section id="palette">
+      <!-- you can test with this ul until you get your JS working -->
+      <ul id ="Colors">
+        <li id = "one"></li>
+        <li id = "two"></li>
+        <li id = "three"></li>
+      </ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
